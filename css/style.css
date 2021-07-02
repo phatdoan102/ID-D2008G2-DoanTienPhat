@@ -774,28 +774,7 @@ footer{
 }
 .breakline{
 	width: 100%;
-	animation: breakline 15s infinite ease-in-out;
 }
 .center{
 	align-items: center
-}
-@keyframes breakline{
-	0%{
-		width: 0;
-		transform: translateX(-1200px)
-	}
-	25%{
-		width: 100%
-	}
-	50%{
-		width: 0;
-		transform: translateX(1200px)
-	}
-	75%{
-		width: 100%
-	}
-	100%{
-		width: 0;
-		transform: translate(0px)
-	}
 }
